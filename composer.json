@@ -1,0 +1,35 @@
+{
+    "name": "engesoftware/mappable-models",
+    "description": "A package of classes that help to fix some common problems found in laravel+oracle architecture, using eloquent models.",
+    "type": "library",
+    "authors": [
+      {
+        "name": "Philippe Vanzin Moreira",
+        "email": "pvanzinmoreira@gmail.com"
+      },
+      {
+        "name": "Igor Moraes",
+        "email": "igor.sgm@gmail.com"
+      }
+    ],
+    "require": {
+        "sofa/eloquence-mappable": "^5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Engesoftware\\MappableModels\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Engesoftware\\MappableModels\\CoreServiceProvider"
+            ],
+            "aliases": {
+                "Core": "Engesoftware\\MappableModels\\CoreFacade"
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

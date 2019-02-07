@@ -21,16 +21,16 @@
     },
     "autoload": {
         "psr-4": {
-            "Engesoftware\\MappableModels\\": "src/"
+            "Reddes\\MappableModels\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Engesoftware\\MappableModels\\CoreServiceProvider"
+                "Reddes\\MappableModels\\CoreServiceProvider"
             ],
             "aliases": {
-                "Core": "Engesoftware\\MappableModels\\CoreFacade"
+                "Core": "Reddes\\MappableModels\\CoreFacade"
             }
         }
     },

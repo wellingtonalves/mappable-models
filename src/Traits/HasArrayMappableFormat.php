@@ -1,6 +1,6 @@
 <?php
 
-namespace Engesoftware\MappableModels\Traits;
+namespace Reddes\MappableModels\Traits;
 
 
 trait HasArrayMappableFormat

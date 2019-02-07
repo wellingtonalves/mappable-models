@@ -1,6 +1,6 @@
 <?php
 
-namespace Engesoftware\MappableModels\Mapping;
+namespace Reddes\MappableModels\Mapping;
 
 class ModelMappingFile
 {

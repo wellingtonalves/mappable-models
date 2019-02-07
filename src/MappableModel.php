@@ -1,10 +1,10 @@
 <?php
 
-namespace Engesoftware\MappableModels;
+namespace Reddes\MappableModels;
 
-use Engesoftware\MappableModels\Mapping\ModelMapping;
-use Engesoftware\MappableModels\Traits\HasArrayMappableFormat;
-use Engesoftware\MappableModels\Traits\HasAutomaticMapping;
+use Reddes\MappableModels\Mapping\ModelMapping;
+use Reddes\MappableModels\Traits\HasArrayMappableFormat;
+use Reddes\MappableModels\Traits\HasAutomaticMapping;
 use Illuminate\Database\Eloquent\Model;
 use Sofa\Eloquence\Eloquence;
 use Sofa\Eloquence\Mappable;

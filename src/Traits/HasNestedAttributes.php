@@ -1,6 +1,6 @@
 <?php
 
-namespace Engesoftware\MappableModels\Traits;
+namespace Reddes\MappableModels\Traits;
 
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;

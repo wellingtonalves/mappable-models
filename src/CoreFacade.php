@@ -1,6 +1,6 @@
 <?php
 
-namespace Engesoftware\MappableModels;
+namespace Reddes\MappableModels;
 
 use \Illuminate\Support\Facades\Facade;
 

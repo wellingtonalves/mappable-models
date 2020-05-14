@@ -17,7 +17,7 @@
       }
     ],
     "require": {
-        "sofa/eloquence-mappable": "^5.6"
+        "sofa/eloquence-mappable": "^6"
     },
     "autoload": {
         "psr-4": {

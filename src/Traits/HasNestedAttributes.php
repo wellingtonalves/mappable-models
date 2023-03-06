@@ -159,7 +159,7 @@ trait HasNestedAttributes
             return $model->update($params);
         } else {
             if ($related = $relation->create($params)) {
-                $belongs = $relation->getRelation();
+                $belongs = $relation->getRelationName();
                 $this->$belongs()->associate($related);
                 parent::save();
 
